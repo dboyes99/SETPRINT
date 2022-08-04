@@ -13,6 +13,7 @@
 * :defform.<default form for jobs>
 * :defclass.<default class of print job>
 * :defdist.<default distribution code for jobs>
+* :notes.<additional info displayed on selection>
 *
 * First PRINTERS NAMES in the CMS search order is used (allows for
 * private printers not known to the unwashed masses).
@@ -37,6 +38,7 @@
     :tags.50
     :defform.STANDARD
     :defdist.
+    :notes.<any notes on printer>
  
  
  
