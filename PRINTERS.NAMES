@@ -38,6 +38,7 @@
     :tags.50
     :defform.STANDARD
     :defdist.
+    :defclass.<default class>
     :notes.<any notes on printer>
  
  
