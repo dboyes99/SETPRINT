@@ -1,17 +1,16 @@
-.cm (C) Copyrighted IBM 2021 (from IBM Form SC19-6209)
 .cm BookMaster Style BOOKHELP, for SETPRINT HELPCMS .
 .cm BOOKHELP source: SETPRINT SCRPCMS R
 .cm BOOKHELP processed at 18:58:08 3 Mar 2021.
 .CS 1 ON
  
-›|SETPRINT EXEC›%
+â€º|SETPRINT EXECâ€º%
  
-›|Brief Summary of Statement:›%
+â€º|Brief Summary of Statement:â€º%
  
  SETPRINT allows selecting which printer to use when generating CMS
  output.
  
-›|Use the SETPRINT command to:›%
+â€º|Use the SETPRINT command to:â€º%
  
  SETPRINT allows selecting which printer to use when generating CMS
  output. Since actual line printers are somewhat scarce in the modern
@@ -21,22 +20,22 @@
  
 .CS 1 OFF
 .CS 2 ON
-›|The format of the SETPRINT command is:›%
+â€º|The format of the SETPRINT command is:â€º%
  
  >>--SETPRINT----DEST--destination-----------------------------------><
  
-›|Operands›%
+â€º|Operandsâ€º%
  
-›|DEST›%
+â€º|DESTâ€º%
      indicates the user is selecting where printed output is to be
      directed for subsequent CMS PRINT commands.
  
-›|destination›%
+â€º|destinationâ€º%
      selects the human-friendly name of an entry in PRINTERS NAMES that
      defines the combination of RSCS options used when output is
      generated.
  
-›|How to Specify›%
+â€º|How to Specifyâ€º%
  
  SETPRINT assumes that all printers on a system are driven by virtual
  machines, generally RSCS. The available printers on your system are
@@ -49,7 +48,7 @@
  calling it in PROFILE EXEC), to set the initial default printer for
  that CMS session.
  
-›|Usage Notes›%
+â€º|Usage Notesâ€º%
  
    1.  Printers are defined to SETPRINT by means of the file PRINTERS
        NAMES on any accessed disk. The file is a NAMES format file as
@@ -75,7 +74,7 @@
        text until the end of the current line is ignored.
  
  +----------------------------------+---------------------------------+
- |›|Tag›%                             |›|Use›%                            |
+ |â€º|Tagâ€º%                             |â€º|Useâ€º%                            |
  +----------------------------------+---------------------------------+
  | :printer.                        |  Identifies a human-friendly    |
  |                                  | name for a printer. Each entry  |
@@ -95,7 +94,7 @@
  +----------------------------------+---------------------------------+
  
  +----------------------------------+---------------------------------+
- |›|Tag›%                             |›|Use›%                            |
+ |â€º|Tagâ€º%                             |â€º|Useâ€º%                            |
  +----------------------------------+---------------------------------+
  | :location.                       | Physical location of the        |
  |                                  | printer. This tag should        |
@@ -213,7 +212,7 @@
    5.  LPR or 3270P links specified in PRINTERS NAMES must be defined
        to RSCS to operate properly.
  
-›|Examples›%
+â€º|Examplesâ€º%
  
    1.  To select printer YAYA listed in PRINTERS NAMES, specify:
  
